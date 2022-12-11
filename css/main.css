@@ -1,0 +1,390 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}  
+
+
+.navbar-brand {
+    margin-left: 50px;
+    margin-right: 55%;
+}
+
+.form-inline button:hover {
+     color: #aeaeae;
+     background-color: #2d2641;
+}
+
+@media(max-width:750px){
+    .navbar button {
+        margin-left: 80%;
+        position: absolute;
+        bottom: 5%;
+    }
+    .navbar img {
+        margin-top: 5%;
+    }
+}
+
+
+/* section back */
+.back {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back .imgg img {
+    margin-top: 100%;
+
+}
+
+.back .contain .image img {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.back .contain .par {
+    margin-top: 20%;
+    margin-right: 30%;
+}
+
+.back .contain .par h1 {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.back .contain .par p {
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.back .imga img {
+    margin-left: 10%;
+    
+}
+
+
+
+/* end section 1 */
+
+.container {
+    padding: 85px;
+    
+}
+ 
+
+.lines::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ddd;
+    bottom: 1px;
+    display: block;
+    left: calc(60px - 60px);
+    position: absolute;
+    margin: 0% 8% 0% 8%;
+}
+
+.zz {
+    margin: 0% 8%;
+}
+
+.tt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:  0% 3%;
+    padding: 50px;
+}
+.tt .pp {
+    width: 33%;
+    height: 300px;
+    margin: 20px;
+}
+
+.tt .pp img {
+    padding-bottom: 6%;
+}
+
+.tt .pp p {
+    color: #bcbcbc;
+}
+
+.clear {
+    clear: both;
+}
+
+@media(max-width:750px){
+    .tt {
+        display: block;
+    }
+    .tt .pp {
+        width: auto;
+        height: auto;
+    }
+}
+
+/*end section 2 */
+
+.bb {
+    height: 20%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: #2d2641;
+    display: flex;
+}
+
+.bb .hh h1 {
+    color: #ddd;
+    padding: 12% 12%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bb .ww button {
+    position: absolute;
+    bottom: 38%;
+    left: 83%;
+    
+}
+
+.bb .ww img {
+    width: 96%;
+    margin-left: 29%;
+}
+.cl {
+    clear: both;
+} 
+
+@media(max-width:750px){
+    .bb {
+        
+        width: 80%;
+        min-height: 300px;
+        background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+        background-repeat:  no-repeat;
+        background-color: #2d2641;
+        
+    }
+    .bb .ww img {
+        display: none;
+    }
+
+    .bb .hh h1 {
+        color: #ddd;
+    
+    }
+
+    .bb .ww button {
+        position: absolute;
+        left: 30%;
+        bottom: 20%;
+        
+    }
+    
+}
+
+/* end section 3 */
+
+.qo {
+    min-height: 400px;
+    margin-top: 110px;
+    background-image: url(../images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+    
+
+}
+
+
+.qo .ff img {
+    margin-left: 60%;
+    padding: 50px;
+}
+
+.qo .rr {
+    margin-right: 10%;
+    padding: 50px;
+}
+
+.qo .rr img {
+    padding: 7px;
+}
+
+.qo .vv {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.qo .vv h6 {
+    color:#bcbcbc ;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.qo .vv p {
+    color: #5c5b60 ;
+    font-size: 12px;
+    
+}
+
+.qo .ll {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.qo .ll h6 {
+    color:#bcbcbc ;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.qo .ll p {
+    color: #5c5b60 ;
+    font-size: 12px;
+    
+}
+
+.qo .kk {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.qo .kk h6 {
+    color:#bcbcbc ;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.qo .kk p {
+    color: #5c5b60 ;
+    font-size: 12px;
+    
+}
+
+.qo .jj {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.qo .jj h6 {
+    color:#bcbcbc ;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.qo .jj p {
+    color: #5c5b60 ;
+    font-size: 12px;
+    
+}
+
+@media(max-width:750px){
+
+    .qo {
+        min-height: 600px;
+        background-image: url(../images/bg-pattern-footer-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+        display: block;
+        position: relative;
+        
+    }
+
+    .qo .ff img {
+        margin-left: 25%;
+        padding-top: 20%;
+    }
+
+    .qo .rr {
+        display: flex;
+        margin-left: 33%;
+        padding: 0px;
+        position: absolute;
+        bottom: 75%;
+        
+
+    }
+    .qo .rr img {
+        padding: 7px;
+    }
+
+    .qo .vv {
+        position: static;
+        margin-left: 38%;
+        margin-top: 10%;
+        
+    }
+    
+    .qo .vv h6 {
+        color:#bcbcbc ;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .qo .vv p {
+        color: #5c5b60 ;
+        font-size: 12px;
+        
+    }
+    
+    .qo .ll {
+        position: static;
+        margin-left: 38%;
+    }
+    
+    .qo .ll h6 {
+        color:#bcbcbc ;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .qo .ll p {
+        color: #5c5b60 ;
+        font-size: 12px;
+        
+    }
+    
+    .qo .kk {
+        position: static;
+        margin-left: 38%;
+    }
+    
+    .qo .kk h6 {
+        color:#bcbcbc ;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .qo .kk p {
+        color: #5c5b60 ;
+        font-size: 12px;
+        
+    }
+    
+    .qo .jj {
+        position: static;
+        margin-left: 38%;
+    }
+    
+    .qo .jj h6 {
+        color:#bcbcbc ;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .qo .jj p {
+        color: #5c5b60 ;
+        font-size: 12px;
+        
+    }
+}
+
+
+
+
+
